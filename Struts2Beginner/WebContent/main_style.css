@@ -1,0 +1,369 @@
+﻿strong, b {
+font-weight: bolder;
+}
+
+/*Body tag class*/
+.bodyclass{
+    min-width:1100px;
+    overflow:auto;
+	background-color:#2d251d;
+	background-image:url('/images/bg_pattern.png');
+	background-repeat:repeat;
+    font-family:arial;
+}
+
+/*Main Table CSS*/
+.global_table{
+	text-align:left;
+}
+.main_td_left{
+	width:25%;
+}
+
+.main_td_center{
+	width:1100px;
+}
+.MainCenterDiv{
+    width:1100px;
+    margin: 0 0 0 -550px;
+    position: absolute;
+    left: 50%;
+}
+.MainContentDiv{
+    border-radius:0px 6px 6px 6px;
+    -webkit-border-radius:0px 6px 6px 6px;
+    -moz-border-radius:0px 6px 6px 6px;
+    background-color:white;
+
+
+
+    /*margin-left:20%;
+    margin-right:20%;*/
+}
+.content_td{
+	border-radius:0px 6px 6px 6px; 
+	-webkit-border-radius:0px 6px 6px 6px;  
+	-moz-border-radius:0px 6px 6px 6px; 
+	background-color:white;
+}
+.main_td_right{
+	width:25%;
+	text-align:left;vertical-align:top;
+}
+/*End Table CSS*/
+
+
+/*Updates section separator CSS*/
+.updates_section_end_seperator{
+	width:400px;
+	height:1px;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e5e5e5), color-stop(1, #b2b2b2) ); 
+	background:-moz-linear-gradient( center top, #e5e5e5 5%, #b2b2b2 100% );
+	background:-o-linear-gradient( top, #e5e5e5, #b2b2b2);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e5e5e5", endColorstr="#b2b2b2");
+	background-color:#b2b2b2;
+	display:inline-block;
+	
+}
+
+/* Settings Divs CSS*/
+.form_table{
+	margin-bottom:15px;
+	line-height:25px;
+}
+
+.td_form_left_title{
+	width:130px;
+	font-size:12px;
+	font-family:arial;
+	text-indent:10px;
+}
+
+.td_form_left_checkboxs{
+	width:115px;
+	font-size:12px;
+	font-family:arial;
+	text-indent:10px;
+}
+
+.td_form_middle{
+	width:100px;
+	text-align:left;
+	font-family:arial;
+	font-size:12px;
+	text-indent:10px;
+	
+}
+
+.td_form_right{
+	width:70px;
+	text-align:left;
+}
+
+.td_form_right_textboxvalue{
+	width:35px;
+	background-color:#2d251d;
+	border-style:solid;
+	border:0px;
+	font-size:12px;
+	font-family:arial;
+	text-indent:5px;
+	color:white;
+}
+
+
+.settings_form_title{
+	color:orange;
+	line-height:25px;
+	font-weight:bold;
+	font-size:13px;
+	font-family:arial;
+	border-radius:6px 6px 6px 6px; 
+	-webkit-border-radius:6px 6px 6px 6px;  
+	-moz-border-radius:6px 6px 6px 6px; 
+	width:100%;
+	background-color:#52463b;
+	text-align:center;
+	vertical-align:middle;		
+}
+/*End Settings Divs CSS*/
+
+
+/*Main Settings Div CSS*/
+.SettingsBoxDiv {
+	background-color:#2d251d;
+	border:1px solid #cccccc;
+	-webkit-border-radius:20px; 
+	-moz-border-radius:20px; 
+	border-radius:20px; 
+	padding:20px;
+	width:350px;
+	color:white;
+    line-height:30px;
+    display:inline-block;
+    vertical-align: top;
+    margin:0 28px;
+}
+.TablePreviewBox{
+    padding-top:10px;
+
+    margin-left:10%;
+    margin-right:10%;
+
+    text-align:center;
+}
+.CodeTextareaBox{
+    margin:0;
+    padding: 0;
+    display:inline-block;
+    margin-left:15px;
+}
+textarea{
+    border: 1px dashed #2d251d;
+}
+/*Theme Color, Color Table CSS*/
+.themes_tables{
+	border:0px solid white;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	-webkit-border-radius:6px; 
+	-moz-border-radius:6px; 
+	border-radius:6px;
+	padding:2px;
+	color:black;
+}.themes_tables:hover{
+	background-color:#52463b;
+}.themes_tables table{
+	width:100%;
+}.themes_tables td{
+	padding-top:3px;
+	padding-bottom:3px;
+}.themes_tables div{
+	width:30px;
+	height:30px;
+	background-color:#ff7f00;
+	border:1px solid #cccccc;
+}/*End Theme Color, Color Table CSS*/
+
+
+
+
+
+.updates_div{
+	background-color:#2d251d;
+	text-align:left;
+	-webkit-border-radius:20px; 
+	-moz-border-radius:20px; 
+	border-radius:20px; 
+	border:1px solid #cccccc;
+	font-size:12px;
+	padding:20px;
+	color:white;
+	font-family:arial;
+	line-height:20px;
+}
+
+#CommercialsDiv{border:0px solid black;width:183px;display:inline-block;float:right;margin-right:15px;margin-top:18px;}
+
+.information_text {
+	width:810px;
+	padding-left:30px;
+    border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    background-color:#2d251d;
+    margin-left:30px;
+}
+.InformationTitle {width:700px;padding-left:25px;text-align:center;}
+.InformationTitle label{display:block;background-color:#52463b;width:100%;color:orange;line-height:25px;font-family:arial;font-size:13px;font-weight:bold;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;width:600px;}
+.information_text div{
+
+	width:100%;
+	/*border-radius:10px 10px 10px 0px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;   */
+}
+.FiltersColorDiv{
+    display:inline-block;
+    width:20px !important;
+    height:20px;
+    margin-left:5px;
+    margin-top:5px;
+}
+.information_text p{
+	width:760px;
+	font-size:12px;
+	font-family:arial;
+	line-height:20px;
+	color:#ffffff;
+	padding:20px;
+}
+
+.DesignTables_TablePreviewBox{
+    margin-left:60px;
+    margin-top: 40px;
+    width:370px;display:inline-block;
+}
+
+/*Top Section PHP CSS*/
+.logo{
+
+
+}.logo h1{
+	font-size:35px;
+	font-family:Tahoma Bold,sans-serif;
+	font-weight:bold;
+	color:white;
+
+	
+	
+}
+.logo span{
+color:#ff9812;
+}
+
+.navigation{
+	width:138px;
+	height:33px;
+	background-image:url('/images/tab.png');
+	background-repeat:no-repeat;
+	text-align:center;
+	vertical-align:middle;
+    margin-right:7px;
+    display:inline-block;
+    line-height:33px;
+}
+.navigation a{
+	text-decoration:none;
+	color:black;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+}
+.navigation a:hover{
+	color:#bf5f00;
+}
+.navigation_separator{
+	width:7px;
+}
+/*End Top Section PHP CSS*/
+
+
+/* Links */
+.link_white_bg {
+	font-family:arial;
+	font-size:16px;
+	padding:5px;
+	width:150px;
+	width:100%;
+	font-weight:bold;
+}
+.link_white_bg a{
+	color:black;
+}
+
+.links {
+	color:white;
+	font-weight:bold;
+}
+.links a:link a:visited a:active a:hover{
+	color:white;
+	font-weight:bold;
+}
+
+.links_black{
+	font-size:12px;
+	font-family:arial;
+	color:black;
+	text-align:center;
+	width:100%;
+	line-height:20px;
+}.links_black a:link a:visited a:active a:hover{
+	color:white;
+	font-weight:bold;
+}
+/* End Links */
+				
+
+
+
+
+
+/* Tool CSS */
+
+.form_left_title{
+    width:140px;
+    font-size:12px;
+    text-indent:10px;
+    display:inline-block;
+    vertical-align: top;
+}
+.form_middle_input{
+    width:100px;
+    text-align:left;
+    font-size:11px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.form_right_info{
+    width:70px;
+    text-align:center;
+    display:inline-block;
+    vertical-align: top;
+   font-size:12px;
+}
+
+
+input[type=text]{
+    vertical-align: middle;
+    line-height: 100%;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="Struts2Beginner" extends="jfreechart-default">
+		<action name="calculateSumAction" class="net.codejava.struts.SumAction"
+			method="calculate">
+			<result name="success">/Result.jsp</result>
+			<result name="input">/Input.jsp</result>
+		</action>
+		<action name="doLogin" class="nms.doLogin">
+		<result name="u">user.jsp</result>
+		<result name="unsuccessful">userError.jsp</result>
+		</action>
+	
+		<action name="chart" class="nms.DrawChartTopology">
+			<result name="success" type="chart">
+				<param name="width">2100</param>
+				<param name="height">1300</param>
+			</result>
+		</action>
+		
+		<action name="userSwitchInformation" class="nms.doDbRetrieval">
+		<result name="successful">switchInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+
+		
+		<action name="portInformation" class="nms.doPortRetrieval">
+		<result name="successful">portInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+
+		
+		<action name="nodeConnectivityInformation" class="nms.doNodeConnectivity">
+		<result name="success">nodeConnectivity.jsp</result>
+		<result name="unsuccess">error.jsp</result>
+		</action>
+
+		<action name="eachPortInformation" class="nms.doEachPortRetrieval">
+		<result name="successful">eachPortInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+		
+		<action name="portOneInformation" class="nms.doOnePortRetrieval">
+		<result name="successful">onePortInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action> 
+		
+		<action name="vlanInformation" class="nms.doVlanInfoRetrieval">
+		<result name="successful">vlanInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action> 
+		
+		<action name="eachVlanConnectedInformation" class="nms.doVlanConnectedRetrieval">
+		<result name="successful">vlanConnectedInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+		
+		<action name="snmpDisabledSwitchInformation" class="nms.doSnmpDisabledSwitchRetrieval">
+		<result name="successful">snmpDisabledSwitchInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+		
+		<action name="printerInformation" class="nms.doPrinterInfoRetrieval">
+		<result name="successful">printerInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+		
+		<action name="printerConnectivityInformation" class="nms.doPrinterConnectivityInfoRetrieval">
+		<result name="successful">printerConnectivityInfo.jsp</result>
+		<result name="unsuccessful">error.jsp</result>
+		</action>
+	</package>
+</struts>
